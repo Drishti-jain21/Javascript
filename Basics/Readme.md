@@ -21,8 +21,29 @@
 
 - object 
 
-- typeof : used to check the data type of a value or a variable
+- typeof : used to check the data type of a value or a variable\
 Note: typeof null is *object* and typeof undefined is *undefined*
+
+## Conversion
+- If we want to convert the datatype of any value, we can input the value in datatype keyword.\
+Eg: Number("33") -> 33\
+\
+Note: In case of type casting to **number**\
+- If the value passed cannot be converted to a number, JS will convert it and show its data type to be a number, but it will actually be *NaN* (Not a number).
+- If the value passed is null, converted value will be *0*
+- If the value passed is undefined, converted value will be *NaN*
+- If the value passed is true/false, converted value will be *1/0* accordingly
+\
+Note: In case of type casting to **boolean**  
+- If the value passed is 1 or any value/0, converted value will be *true/false*
+- If the value passed is ""/null/undefined, converted value will be *false*
+- If the value passed is "string", converted value will be *true*
+
+## Operations
+- While concatenation of string and numbers:\
+If we have addition of numbers followed by string, it will add the numbers and concatenate with string, returning the whole answer as string\
+In case of string followed by values, it will consider everything to be string and simply concatenate it
+- +true converts true to 1 and +"" which is false, converts it to 0
 
 
 ## Extras
