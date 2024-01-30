@@ -22,7 +22,7 @@
 - object 
 
 - typeof : used to check the data type of a value or a variable\
-Note: typeof null is *object* and typeof undefined is *undefined* and typeof function is function only but it is called object function\
+Note: typeof null is *object* and typeof undefined is *undefined* and typeof function is function only but it is called object function
 
 They are of 2 types: 
 - Primitive : call by value takes place. The changes are made in the copy and we get the value and not the address of the variable
@@ -57,13 +57,20 @@ In case of string followed by values, it will consider everything to be string a
 ## Comparisons
 
 - JS sometimes gives unexpected results while comparisons, so make sure the datatype of both elements while comparison is equal
-- During null comparison with 0:\
+- During null comparison with 0:
     - null > 0 gives false
     - null == 0 gives false
     - null >= gives true\
     because equality check and comparison work differently. Comparisons convert null to 0 and hence, null > 0 gives us false
 - Undefined comparison with 0 always gives false irrespective of the operation
 - Strict check (===): It checks the datatype as well
+
+## Memory Allocation
+
+- Stack (Primitive) : we get a copy of the variable and changes are made to the copy
+- Heap (Non-Primitive) : we get a reference of the variable and changes are made to the original
+
+![Explanation to stack and heap memory allocation](image.png)
 
 ## Extras
 
