@@ -72,6 +72,19 @@ In case of string followed by values, it will consider everything to be string a
 
 ![Explanation to stack and heap memory allocation](image.png)
 
+## Strings
+
+- Use backticks for string concatenation, so that we can inject the variable directly and is called string interpolation
+- gameName is an object which is stored as key:value pair\
+![Alt text](image-1.png)
+- Each string has a prototype, which contains various functions which can be applied on the string. This can be seen in the console or in terminal. In terminal, this will look empty, but actually contains a lot of things.
+- Substring returns the string from start index to end index - 1, can't give negative values
+- Slicing returns a part of string, we can send negative indexes as well
+- In trim, we can remove the white spaces from start and end of the string. It works on line terminators as well
+- In replace function, we can replace a particular substring with another substring
+- includes function tells us if any particular substring is present in the string or not
+- Split is used to convert a string into array by dividing the string into different parts on the basis of a separator
+
 ## Extras
 
 - console.log(): for printing variable's value
