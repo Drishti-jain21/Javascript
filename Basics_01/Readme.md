@@ -85,6 +85,29 @@ In case of string followed by values, it will consider everything to be string a
 - includes function tells us if any particular substring is present in the string or not
 - Split is used to convert a string into array by dividing the string into different parts on the basis of a separator
 
+## Nums and Maths
+- We can explicitly declare a variable as number.
+- toString function converts the number to a string and we can use the functions of string on it as well
+- toFixed function gives us the number to precise decimal points  
+- toPrecision gives the rounded of value to specific digits. If the argument number is smaller than the digits before decimal point, we will get the answer in exponential.\
+It returns a string
+- toLocaleString gives us a number according to the number system(en-IN, indian number system)
+- Javascript gives us the minValue and the maxValue
+\
+- we can find max/min of more than 2 elements at one time
+- Math.random() - gives a random different value each time between 0 and 1\
+1 is usually added to the value to avoid cases like 0.0___ 
+
+## Date and Time
+- It is calculated in milliseconds wrt to a earlier date as decided the team
+- Currently it can't be directly accessed as we access Math, but it might happen in future.
+- We create a Date() object, it is not in a readable format
+- When we convert it to string, it becomes more readable
+- We can create our own date as well (year,month,date,hour,minute)\
+note: month will start from 0
+- Timestamp is used when we need to compare on the basis of milliseconds
+
+
 ## Extras
 
 - console.log(): for printing variable's value
